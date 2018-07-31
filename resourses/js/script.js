@@ -83,7 +83,6 @@ $(document).ready(function(){
     });*/
     
        $( ".hamburger-menu-1" ).hide();
-        $( ".js--main-nav" ).hide();
         $( ".hamburger-menu" ).click(function() {
         $( ".js--main-nav" ).slideToggle( "slow", function() {
         $( ".hamburger-menu" ).hide();
